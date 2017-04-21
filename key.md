@@ -1,7 +1,6 @@
 # KeyLang: A Scripting Language in the Key of C
 
-The original documentation for KeyLang can be found [here](https://rawgit.com/clicheinternetalias/keylang/master/key.html).
-This documentation was written by @clicheinternetalias.
+The original documentation for KeyLang, which was written by [@clicheinternetalias](https://github.com/clicheinternetalias), can be found [here](https://rawgit.com/clicheinternetalias/keylang/master/key.html).
 
 ## Overview
 
