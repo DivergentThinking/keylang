@@ -44,7 +44,7 @@ Key features of KeyLang:
 | `()` | l-to-r | sub-expression | any
 | `{}` | l-to-r | object literal | any
 | `[]` | l-to-r | array literal | any
-| | | ** Postfix Member ** |
+| | | **Postfix Member** |
 | `[]` | l-to-lr | subscript | any
 | `.` | l-to-r | member | any
 | | | **Postfix** |
@@ -164,7 +164,7 @@ Return a value from a function. The *expr* is optional; if a value is not given,
 
 Declare locally-scoped variables inside a function; or, if at top-level, file-scoped variables.
 
-The `var` statement may contain one or more identifiers, with optional values, separated by commas. Variables must be declared before use, and cannot be declared multiple items.
+The `var` statement may contain one or more identifiers, with optional values, separated by commas. Variables must be declared before use, and cannot be declared multiple times.
 
 > **for (**;;**)** *statement*
 >
