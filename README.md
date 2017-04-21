@@ -1,6 +1,8 @@
 KeyLang: A Scripting Language in the Key of C
 =============================================
 
+[Documentation](key.md)
+
 KeyLang was designed to be small, simple, and easy to integrate and use. No attempts have been made to support any of the latest whiz-bang paradigms or theoretical stuff, just the basics. The primary design goal was to avoid malloc or GC during script execution.
 
 Key features of KeyLang:
