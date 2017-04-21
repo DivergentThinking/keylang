@@ -1,5 +1,8 @@
 # KeyLang: A Scripting Language in the Key of C
 
+The original documentation for KeyLang can be found [here](https://rawgit.com/clicheinternetalias/keylang/master/key.html).
+This documentation was written by @clicheinternetalias.
+
 ## Overview
 
 KeyLang was designed to be small, simple, and easy to integrate and use. No attempts have been made to support any of the latest whiz-bang paradigms or theoretical stuff, just the basics. The primary design goal was to avoid malloc or GC during script execution.
