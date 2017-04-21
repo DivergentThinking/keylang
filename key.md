@@ -40,18 +40,18 @@ Key features of KeyLang:
 
 | **Operator** | **Associativity** | **Description** | **Types**
 | --- | --- | --- | ---
-| | | ** Primary ** |
+| | | **Primary** |
 | `()` | l-to-r | sub-expression | any
 | `{}` | l-to-r | object literal | any
 | `[]` | l-to-r | array literal | any
 | | | ** Postfix Member ** |
 | `[]` | l-to-lr | subscript | any
 | `.` | l-to-r | member | any
-| | | ** Postfix ** |
+| | | **Postfix** |
 | `()` | l-to-r | function call | native, function
 | `++` | l-to-r | post-increment | int
 | `--` | l-to-r | post-decrement | int
-| | | ** Prefix ** |
+| | | **Prefix** |
 | `~` | r-to-l | bitwise not | int
 | `!` | r-to-l | logical not | any
 | `+` | r-to-l | no operation | any
@@ -60,21 +60,21 @@ Key features of KeyLang:
 | `typeof` | r-to-l | type of value as a string | any
 | `++` | r-to-l | pre-increment | int
 | `--` | r-to-l | pre-decrement | int
-| | | ** Infix Multiplicative ** |
+| | | **Infix Multiplicative** |
 | `*` | l-to-r | multiplication | int
 | `/` | l-to-r | division | int
 | `%` | l-to-r | modulus | int
-| | | ** Infix Additive ** |
+| | | **Infix Additive** |
 | `+` | l-to-r | addition | int
 | `-` | l-to-r | subtraction | int
-| | | ** Infix Bitwise ** |
+| | | **Infix Bitwise** |
 | `^` | l-to-r | bitwise exclusive-or | int
 | `&` | l-to-r | bitwise and | int
 | *pipe* | l-to-r | bitwise inclusive-or | int
 | `<<` | l-to-r | shift left | int
 | `>>` | l-to-r | signed shift right | int
 | `>>>` | l-to-r | unsigned shift right | int
-| | | ** Infix Comparison ** |
+| | | **Infix Comparison** |
 | `==` | l-to-r | equal | any
 | `!=` | l-to-r | not equal | any
 | `<` | l-to-r | less than | int, string
@@ -83,13 +83,13 @@ Key features of KeyLang:
 | `>=` | l-to-r | greater than or equal | int, string
 | `is` | l-to-r | is of a type | any
 | `isnot` | l-to-r | is not of a type | any
-| | | ** Infix Logical (Short-Circuiting) ** |
+| | | **Infix Logical (Short-Circuiting)** |
 | `&&` | l-to-r | logical and | any
 | *two pipes* | l-to-r | logical inclusive-or | any
 | `??` | l-to-r | coalesce (evaluate right-hand side if the left is undefined) | any
-| | | ** Ternary ** |
+| | | **Ternary** |
 | `? :` | l-to-r | conditional | any
-| | | ** Assignment ** |
+| | | **Assignment** |
 | `=` | r-to-l | assignment | any
 | `+=` | r-to-l | addition assignment | int
 | `-=` | r-to-l | subtraction assignment | int
@@ -105,7 +105,7 @@ Key features of KeyLang:
 | `>>=` | r-to-l | signed shift right assignment | int
 | `>>>=` | r-to-l | unsigned shift right assignment | int
 | `??=` | r-to-l | coalesce assignment (replace value if current value is undefined) | any
-| | | ** Comma ** |
+| | | **Comma** |
 | `,` | l-to-r | expression separator | any
 
 There's also the rest-argument operator (`...`) which doesn't have precedence and is only valid following the last identifier in a function definition's parameter list.
